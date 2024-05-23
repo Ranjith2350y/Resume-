@@ -1,0 +1,24 @@
+padding:0;
+margin: 0;
+p {
+    width: 100px;
+    height: 90px;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 50px auto;
+  }
+  p:before,
+  p:after {
+    content: '';
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 0;
+  }
+  p:after {
+    left: 0;
+    top: 50px;
+  }
